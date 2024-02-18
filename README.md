@@ -40,4 +40,10 @@ The latent low-dimensional space will be saved as "dataset_name"+"_uspace.csv" (
 
 The clustering result file will be saved as "dataset_name"+"_clusters.csv" (e.g.  *pbmc_clusters.csv*).
 
+## Citation
+Please cite our paper if you use the code.
+
+Tianyuan Lei, Ruoyu Chen, Shaoqiang Zhang, Yong Chen, Self-supervised deep clustering of single-cell RNA-seq data to hierarchically detect rare cell populations, Briefings in Bioinformatics, Volume 24, Issue 6, November 2023, bbad335, https://doi.org/10.1093/bib/bbad335
+
+
 
