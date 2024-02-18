@@ -1,6 +1,7 @@
 # DeepScena
 DeepScena is a novel deep-learning clustering method for scRNA-seq data analysis that provides accurate results for hierarchically detecting rare cell populations. The method was fully equipped with features such as data imputation, dimensionality reduction, enhanced pairwise cell similarities, and efficient clustering strategies (see the following workflow). A key feature of DeepScena is the use of a negative binomial-based autoencoder to fit the NB model for data imputation, which enhances accuracy. Additionally, DeepScena uses paired data similarity as a self-supervised means to capture cell relationships and obtain a cluster-friendly space for efficient aggregation of similar cells. The study found that the NB-based autoencoder in DeepScena outperformed a regular autoencoder in terms of clustering scRNA-seq data. DeepScena was tested on eight expansive scRNA-seq datasets and results showed it has superior performance than seven other methods.
-<img alt="DeepScena Workflow and Application." src="[https://github.com/SophiaChen-codes/DeepScena/DeepScena_Workflow.jpeg]">
+
+![DeepScena Workflow and Application](DeepScena_Workflow.jpeg)
 
 ## Install packages
 The code of DeepScena runs with Python version 3.9 and Pytorch==1.7.1. And you should have CUDA installed.
